@@ -16,9 +16,9 @@ defineProps({
       </p>
     </div>
     <div class="bg-white py-4">
-      <div class="flex justify-center">
+      <div class="flex justify-center items-center">
         <p
-          class="inline-block w-10 h-10 mb-1 py-2 text-center text-red-200 border border-red-300 rounded-full"
+          class="flex items-center justify-center w-10 h-10 text-center text-red-500 border-4 border-red-400 rounded-full font-bold text-xl"
         >
           {{ page.alpha }}
         </p>
