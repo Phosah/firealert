@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="py-12 bg-brand-blue-1">
+  <section id="about" class="py-12 bg-brand-blue-1">
     <div class="max-w-xl mx-auto px-4 text-center">
       <img class="mx-auto mb-6 w-12 h-12" src="../assets/logo.png" alt="Logo" />
       <p class="mb-6 text-white">

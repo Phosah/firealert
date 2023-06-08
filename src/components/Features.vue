@@ -13,7 +13,7 @@ const switchScreen = (ix: number) => {
 </script>
 
 <template>
-  <section class="py-12 bg-brand-gray-1">
+  <section id="features" class="py-12 bg-brand-gray-1">
     <div class="max-w-7xl mx-auto text-center text-white">
       <h2 class="mb-6 text-3xl font-bold">App Features</h2>
       <div class="flex justify-center items-end">

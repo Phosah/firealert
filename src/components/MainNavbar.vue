@@ -7,10 +7,10 @@
     >
       <img class="w-16 h-16" src="../assets/logo.png" alt="Logo" />
       <ul class="flex items-center gap-6">
-        <li>About</li>
-        <li>Application</li>
-        <li>How does it work?</li>
-        <li>Features</li>
+        <a href="#about"><li>About</li></a>
+        <a href="#application"><li>Application</li></a>
+        <a href="#work"><li>How does it work?</li></a>
+        <a href="#features"><li>Features</li></a>
       </ul>
       <div class="flex items-center gap-6">
         <button class="py-3 px-6 rounded-md bg-white text-black">
