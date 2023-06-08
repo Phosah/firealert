@@ -41,7 +41,7 @@ const fireAlert = {
 </script>
 
 <template>
-  <main class="max-w-7xl mx-auto px-4">
+  <main class="">
     <MainNavbar />
     <MainHeader />
     <Brochure />

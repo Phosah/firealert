@@ -13,26 +13,28 @@ const switchScreen = (ix: number) => {
 </script>
 
 <template>
-  <section class="py-12 bg-brand-gray-1 text-center text-white">
-    <h2 class="mb-6 text-3xl font-bold">App Features</h2>
-    <div class="flex justify-center items-end">
-      <div
-        class="mb-6"
-        :class="index == ix ? 'w-1/4' : 'flex-1'"
-        v-for="(screen, ix) in screens"
-        :key="ix"
-      >
-        <img :src="screen" alt="screen" />
+  <section class="py-12 bg-brand-gray-1">
+    <div class="max-w-7xl mx-auto text-center text-white">
+      <h2 class="mb-6 text-3xl font-bold">App Features</h2>
+      <div class="flex justify-center items-end">
+        <div
+          class="mb-6"
+          :class="index == ix ? 'w-1/4' : 'flex-1'"
+          v-for="(screen, ix) in screens"
+          :key="ix"
+        >
+          <img :src="screen" alt="screen" />
+        </div>
       </div>
-    </div>
-    <p class="mb-4">View, export and manage events</p>
-    <div class="flex items-center justify-center gap-4">
-      <div v-for="(datum, ix) in screens.length" :key="ix">
-        <button
-          @click="switchScreen(ix)"
-          :class="index == ix ? 'bg-brand-orange-1' : 'bg-white'"
-          class="w-3 h-3 rounded-full"
-        ></button>
+      <p class="mb-4">View, export and manage events</p>
+      <div class="flex items-center justify-center gap-4">
+        <div v-for="(datum, ix) in screens.length" :key="ix">
+          <button
+            @click="switchScreen(ix)"
+            :class="index == ix ? 'bg-brand-orange-1' : 'bg-white'"
+            class="w-3 h-3 rounded-full"
+          ></button>
+        </div>
       </div>
     </div>
   </section>
