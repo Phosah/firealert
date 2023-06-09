@@ -10,7 +10,9 @@
         commercial vehicles, mining vehicles, machinery, boats, buses or any
         other mobile assets.
       </p>
-      <button class="py-2 px-4 bg-white round rounded-md">
+      <button
+        class="py-2 px-4 bg-white round rounded-md hover:bg-brand-orange-1 hover:text-white"
+      >
         Download Brochure
       </button>
     </div>

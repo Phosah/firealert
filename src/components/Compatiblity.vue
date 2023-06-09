@@ -2,8 +2,8 @@
 
 <template>
   <section class="max-w-7xl mx-auto px-4">
-    <div class="flex items-center gap-6 py-12 bg-white">
-      <div class="flex-1">
+    <div class="md:flex items-center gap-6 py-12 bg-white">
+      <div class="hidden md:block flex-1">
         <img src="../assets/compatible-hardware-photo.png" alt="Hardware" />
       </div>
       <div class="flex-1">
@@ -19,6 +19,9 @@
           pressure via the app. There is also an additionial input that can be
           used for the optional fire suppression system pressure monitoring.
         </p>
+      </div>
+      <div class="block md:hidden flex-1">
+        <img src="../assets/compatible-hardware-photo.png" alt="Hardware" />
       </div>
     </div>
   </section>
