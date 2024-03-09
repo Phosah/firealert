@@ -18,7 +18,9 @@
       >
         <a href="https://v2.firealert.mobi/login">Login</a>
       </button>
-      <img src="../assets/dashboard.png" alt="Dashboard" />
+      <div class="my-10 mx-6">
+        <img src="../assets/dashboard.png" alt="Dashboard" />
+      </div>
     </div>
   </section>
 </template>
