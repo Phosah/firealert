@@ -25,8 +25,17 @@
         </div>
       </div>
     </div>
-    <p class="md:pl-6 lg:pl-12 text-center">
-      &copy; 2022 Firealert. All rights reserved.
-    </p>
+
+    <div class="flex items-center justify-between space-x-4">
+      <p class="md:pl-6 lg:pl-12 text-center">
+        &copy; 2024 Firealert. All rights reserved.
+      </p>
+
+      <ul class="flex items-center space-x-6 cursor-pointer">
+        <li>Terms & Conditions</li>
+        <li>Privacy Policy</li>
+        <li> Refund Policy</li>
+      </ul>
+    </div>
   </footer>
 </template>
