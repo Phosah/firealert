@@ -10,12 +10,14 @@
           alt="footer image"
         />
       </div>
+
       <div>
         <h2
           class="mb-6 text-2xl md:text-3xl text-center md:text-left font-bold"
         >
           Download the <span class="text-brand-orange-2">Firealert</span> App
         </h2>
+
         <div class="">
           <!-- <div><img src="../assets/qr.png" alt="Qr code" /></div> -->
           <div class="flex flex-col items-center mb-10 md:mb-0">
@@ -33,7 +35,7 @@
 
       <ul class="flex items-center space-x-6 cursor-pointer">
         <li>Terms & Conditions</li>
-        <li>Privacy Policy</li>
+        <router-link to="/privacy"><li>Privacy Policy</li></router-link>
         <li> Refund Policy</li>
       </ul>
     </div>
