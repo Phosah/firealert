@@ -34,8 +34,10 @@
       </p>
 
       <ul class="flex items-center space-x-6 cursor-pointer">
-        <li>Terms & Conditions</li>
-        <router-link to="/privacy"><li>Privacy Policy</li></router-link>
+        <router-link to="/terms-and-conditions"
+          ><li>Terms & Conditions</li></router-link
+        >
+        <router-link to="/privacy-policy"><li>Privacy Policy</li></router-link>
         <li> Refund Policy</li>
       </ul>
     </div>
