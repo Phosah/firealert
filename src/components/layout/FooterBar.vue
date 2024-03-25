@@ -6,7 +6,7 @@
       <div class="mb-10 lg:md-0">
         <img
           class="mx-auto"
-          src="../assets/footer-img.png"
+          src="../../assets/footer-img.png"
           alt="footer image"
         />
       </div>
@@ -19,10 +19,14 @@
         </h2>
 
         <div class="">
-          <!-- <div><img src="../assets/qr.png" alt="Qr code" /></div> -->
+          <!-- <div><img src="../../assets/qr.png" alt="Qr code" /></div> -->
           <div class="flex flex-col items-center mb-10 md:mb-0">
-            <img class="mb-2" src="../assets/app-store.png" alt="App store" />
-            <img src="../assets/google-store.png" alt="Google store" />
+            <img
+              class="mb-2"
+              src="../../assets/app-store.png"
+              alt="App store"
+            />
+            <img src="../../assets/google-store.png" alt="Google store" />
           </div>
         </div>
       </div>

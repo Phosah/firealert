@@ -3,12 +3,12 @@ import Brochure from "@/components/Brochure.vue";
 import Compatiblity from "@/components/Compatiblity.vue";
 import Dashboard from "@/components/Dashboard..vue";
 import Features from "@/components/Features.vue";
-import FooterBar from "@/components/FooterBar.vue";
+// import FooterBar from "@/components/FooterBar.vue";
 import HowItWorks from "@/components/HowItWorks.vue";
 import LayoutOne from "@/components/LayoutOne.vue";
 import LayoutTwo from "@/components/LayoutTwo.vue";
 import MainHeader from "@/components/MainHeader.vue";
-import MainNavbar from "@/components/MainNavbar.vue";
+// import MainNavbar from "@/components/MainNavbar.vue";
 import Device1 from "../assets/device-1.png";
 import Device2 from "../assets/device-2.png";
 import Device3 from "../assets/device-3.png";
@@ -42,7 +42,7 @@ const fireAlert = {
 
 <template>
   <main class="">
-    <MainNavbar />
+    <!-- <MainNavbar /> -->
     <MainHeader />
     <Brochure />
     <Compatiblity />
@@ -53,6 +53,6 @@ const fireAlert = {
     <LayoutTwo :page="fireAlert" />
     <Features />
     <Dashboard />
-    <FooterBar />
+    <!-- <FooterBar /> -->
   </main>
 </template>

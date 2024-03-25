@@ -1,11 +1,11 @@
-<script setup lang="ts"></script>
-
 <template>
   <nav class="bg-brand-blue-1">
     <div
       class="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between text-white"
     >
-      <img class="w-16 h-16" src="../assets/logo.png" alt="Logo" />
+      <router-link to="/">
+        <img class="w-16 h-16" src="../../assets/logo.png" alt="Logo" />
+      </router-link>
       <ul class="hidden md:flex items-center gap-6">
         <a class="hover:text-brand-orange-2" href="#about"><li>About</li></a>
         <a class="hover:text-brand-orange-2" href="#application"

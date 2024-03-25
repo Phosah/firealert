@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-7xl mx-auto px-4 py-6">
+  <section class="max-w-7xl mx-auto px-4 py-10">
     <div class="mb-8">
       <h2 class="mb-4 text-3xl font-bold">Terms and Conditions</h2>
       <p class="mb-4">Welcome to Fire Alert!</p>

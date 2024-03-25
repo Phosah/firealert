@@ -1,7 +1,7 @@
 <template>
-  <section class="max-w-7xl mx-auto px-4 py-6">
+  <section class="max-w-7xl mx-auto px-4 py-10">
     <div class="mb-8">
-      <h2 class="mb-4 text-4xl font-bold">Privacy Policy for Fire Alert</h2>
+      <h2 class="mb-8 text-4xl font-bold">Privacy Policy for Fire Alert</h2>
       <h2 class="mb-4 text-4xl font-bold">Privacy Policy</h2>
       <p class="mb-4">Last updated: March 14, 2024</p>
       <p class="mb-4">
