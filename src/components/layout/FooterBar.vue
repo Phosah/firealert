@@ -39,10 +39,16 @@
 
       <ul class="flex items-center space-x-6 cursor-pointer">
         <router-link to="/terms-and-conditions"
-          ><li>Terms & Conditions</li></router-link
+          ><li class="hover:text-brand-orange-2">
+            Terms & Conditions
+          </li></router-link
         >
-        <router-link to="/privacy-policy"><li>Privacy Policy</li></router-link>
-        <li> Refund Policy</li>
+        <router-link to="/privacy-policy"
+          ><li class="hover:text-brand-orange-2">
+            Privacy Policy
+          </li></router-link
+        >
+        <li class="hover:text-brand-orange-2"> Refund Policy</li>
       </ul>
     </div>
   </footer>
