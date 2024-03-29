@@ -401,10 +401,9 @@
         In the event that you need to contact Provider for purposes related to
         these Terms and Conditions, please use the following:
       </p>
-      <p>Telephone: (insert contact details)</p>
-      <p>Fax: (insert fax number)</p>
-      <p>Email: (insert email address)</p>
-      <p>© (Insert name of website owner) (insert date)</p>
+
+      <p>Email: app@firealert.mobi</p>
+      <p>© Fire Alert Mobi (Pty) Ltd 2024</p>
 
       <p class="my-8">
         This Website was most recently updated on the 28 March 2024
