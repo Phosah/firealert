@@ -34,7 +34,7 @@
 
     <div class="flex items-center justify-between space-x-4">
       <p class="md:pl-6 lg:pl-12 text-center">
-        &copy; 2024 Firealert. All rights reserved.
+        &copy; {{ year }} Firealert. All rights reserved.
       </p>
 
       <ul class="flex items-center space-x-6 cursor-pointer">
@@ -53,3 +53,8 @@
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+import { ref } from "vue";
+const year = ref(new Date().getFullYear());
+</script>
