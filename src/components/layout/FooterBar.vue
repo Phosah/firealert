@@ -48,7 +48,9 @@
             Privacy Policy
           </li></router-link
         >
-        <li class="hover:text-brand-orange-2"> Refund Policy</li>
+        <router-link to="/refund-policy">
+          <li class="hover:text-brand-orange-2"> Refund Policy</li>
+        </router-link>
       </ul>
     </div>
   </footer>

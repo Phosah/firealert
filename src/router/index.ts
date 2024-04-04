@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import PrivacyPolicyView from "@/views/PrivacyPolicyView.vue";
 import TermsAndConditionsView from "@/views/TermsAndConditionsView.vue";
 import PricingView from "@/views/PricingView.vue";
+import RefundPolicyView from "@/views/RefundPolicyView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,6 +22,11 @@ const router = createRouter({
       path: "/terms-and-conditions",
       name: "terms-and-conditions",
       component: TermsAndConditionsView,
+    },
+    {
+      path: "/refund-policy",
+      name: "refund-policy",
+      component: RefundPolicyView,
     },
     {
       path: "/pricing",
