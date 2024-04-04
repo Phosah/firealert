@@ -37,7 +37,9 @@
         &copy; {{ year }} Firealert. All rights reserved.
       </p>
 
-      <ul class="md:flex md:items-center md:space-x-6 cursor-pointer">
+      <ul
+        class="flex flex-col md:flex-row md:items-center md:space-x-6 space-y-2 cursor-pointer"
+      >
         <router-link to="/terms-and-conditions"
           ><li class="hover:text-brand-orange-2">
             Terms & Conditions
@@ -56,7 +58,7 @@
         </router-link>
       </ul>
 
-      <p class="block md:hidden md:pl-6 lg:pl-12 md:text-center">
+      <p class="block md:hidden mt-8">
         &copy; {{ year }} Firealert. All rights reserved.
       </p>
     </div>
