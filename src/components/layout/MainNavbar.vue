@@ -7,19 +7,19 @@
         <img class="w-16 h-16" src="../../assets/logo.png" alt="Logo" />
       </router-link>
       <ul class="hidden md:flex items-center gap-6">
-        <a class="hover:text-brand-orange-2" href="#about"><li>About</li></a>
+        <a class="hover:text-brand-orange-2" href="/#about"><li>About</li></a>
         <a class="hover:text-brand-orange-2" href="#application"
           ><li>Application</li></a
         >
-        <a class="hover:text-brand-orange-2" href="#work"
+        <a class="hover:text-brand-orange-2" href="/#work"
           ><li>How does it work?</li></a
         >
-        <a class="hover:text-brand-orange-2" href="#features"
+        <a class="hover:text-brand-orange-2" href="/#features"
           ><li>Features</li></a
         >
-        <a class="hover:text-brand-orange-2" href="#features"
-          ><li>Pricing</li></a
-        >
+        <router-link to="/pricing">
+          <li class="hover:text-brand-orange-2">Pricing</li>
+        </router-link>
       </ul>
       <div class="hidden md:flex items-center gap-6">
         <button
@@ -38,3 +38,9 @@
     </div>
   </nav>
 </template>
+
+<style>
+.firealert-active-link {
+  color: rgb(202 138 4);
+}
+</style>
