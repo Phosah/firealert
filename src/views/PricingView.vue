@@ -160,7 +160,7 @@
 
         <article class="mb-10 border border-black">
           <div class="flex items-center justify-between px-4">
-            <h2 class="my-2 text-3xl font-bold">Platform - monthly</h2>
+            <h2 class="my-2 text-3xl font-bold">Platform - Monthly</h2>
             <p class="font-bold text-black">R 280.00</p>
           </div>
 
