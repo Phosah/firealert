@@ -1,12 +1,13 @@
 <template>
-  <nav class="bg-brand-blue-1">
+  <nav class="text-sm md:text-base bg-brand-blue-1">
     <div
       class="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between text-white"
     >
       <router-link to="/">
         <img class="w-16 h-16" src="../../assets/logo.png" alt="Logo" />
       </router-link>
-      <ul class="hidden md:flex items-center gap-6">
+
+      <ul class="ml-2 hidden md:flex items-center gap-2 md:gap-6">
         <a class="hover:text-brand-orange-2" href="/#about"><li>About</li></a>
         <a class="hover:text-brand-orange-2" href="#application"
           ><li>Application</li></a
@@ -21,15 +22,16 @@
           <li class="hover:text-brand-orange-2">Pricing</li>
         </router-link>
       </ul>
-      <div class="hidden md:flex items-center gap-6">
+
+      <div class="ml-2 hidden md:flex items-center gap-6">
         <button
-          class="py-3 px-6 rounded-md bg-white text-black hover:bg-brand-orange-1 hover:text-white"
+          class="py-3 px-2 lg:px-4 rounded-md bg-white text-black hover:bg-brand-orange-1 hover:text-white"
         >
           Download
         </button>
         <a href="https://v2.firealert.mobi/login">
           <button
-            class="py-3 px-6 rounded-md bg-brand-orange-2 text-white hover:bg-brand-orange-1"
+            class="py-3 px-2 lg:px-4 rounded-md bg-brand-orange-2 text-white hover:bg-brand-orange-1"
           >
             Log in
           </button>
