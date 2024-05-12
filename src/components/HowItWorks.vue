@@ -6,7 +6,7 @@
       <h2 class="text-center text-3xl font-bold">How does Firealert work?</h2>
       <img
         class="mx-auto"
-        src="../assets/how-it-works.png"
+        src="../assets/how-it-works.jpg"
         alt="How it works"
       />
     </div>
