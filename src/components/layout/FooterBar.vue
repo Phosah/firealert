@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <footer class="px-6 lg:pr-12 py-12 bg-brand-blue-1 text-white">
     <div class="md:flex gap-6 justify-center items-center mb-20 md:mb-0">
