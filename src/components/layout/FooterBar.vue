@@ -38,7 +38,7 @@
       </p>
 
       <ul
-        class="flex flex-col md:flex-row md:items-center md:space-x-6 space-y-2 cursor-pointer"
+        class="flex flex-col md:flex-row md:items-center md:space-x-6 space-y-2 md:space-y-0 cursor-pointer"
       >
         <router-link to="/terms-and-conditions"
           ><li class="hover:text-brand-orange-2">

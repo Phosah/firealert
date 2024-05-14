@@ -25,6 +25,7 @@
 
       <div class="ml-2 hidden md:flex items-center gap-6">
         <button
+          @click="downloadBrochure"
           class="py-3 px-2 lg:px-4 rounded-md bg-white text-black hover:bg-brand-orange-1 hover:text-white"
         >
           Download
@@ -40,6 +41,19 @@
     </div>
   </nav>
 </template>
+
+<script setup lang="ts">
+const downloadBrochure = () => {
+  const fileName = "FIREALERT-BROCHURE-2024";
+  const url = `pdf/FIREALERT-BROCHURE-2024.pdf`;
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+</script>
 
 <style>
 .firealert-active-link {
