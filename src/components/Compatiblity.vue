@@ -21,7 +21,7 @@
         </p>
       </div>
       <div class="block md:hidden flex-1">
-        <img src="../assets/compatible-hardware-photo.png" alt="Hardware" />
+        <img src="../assets/compatible-hardware-photo.jpg" alt="Hardware" />
       </div>
     </div>
   </section>
