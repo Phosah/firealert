@@ -13,7 +13,7 @@
         We have included a desktop dashboard for easy control monitoring of
         multiple vehicles and fire locations.
       </p>
-      <a href="https://v2.firealert.mobi/login">
+      <a href="https://app.firealert.mobi/login">
         <button
           class="mb-6 py-3 px-6 rounded-md text-black bg-white hover:bg-brand-orange-1 hover:text-white"
         >
