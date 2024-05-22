@@ -4,7 +4,7 @@
   <section class="max-w-7xl mx-auto px-4">
     <div class="md:flex items-center gap-6 py-12 bg-white">
       <div class="hidden md:block flex-1">
-        <img src="../assets/compatible-hardware-photo.png" alt="Hardware" />
+        <img src="../assets/compatible-hardware-photo.jpg" alt="Hardware" />
       </div>
       <div class="flex-1">
         <h2 class="mb-6 text-3xl font-bold">Compatible hardware</h2>

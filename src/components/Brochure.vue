@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <section id="about" class="py-12 bg-brand-blue-1">
     <div class="max-w-xl mx-auto px-4 text-center">
@@ -10,7 +8,9 @@
         commercial vehicles, mining vehicles, machinery, boats, buses or any
         other mobile assets.
       </p>
+
       <button
+        @click="downloadBrochure"
         class="py-2 px-4 bg-white round rounded-md hover:bg-brand-orange-1 hover:text-white"
       >
         Download Brochure
@@ -18,3 +18,16 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const downloadBrochure = () => {
+  const fileName = "FIREALERT-BROCHURE-2024";
+  const url = `pdf/FIREALERT-BROCHURE-2024.pdf`;
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+</script>
