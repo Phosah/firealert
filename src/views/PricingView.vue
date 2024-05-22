@@ -4,6 +4,33 @@
 
     <div class="text-brand-gray-1">
       <article class="mb-10 border border-black">
+        <div class="flex items-center justify-between px-4">
+          <h2 class="my-2 text-3xl font-bold">Software - Monthly</h2>
+          <p class="flex-shrink-0 font-bold text-black">R 280.00</p>
+        </div>
+
+        <div class="py-4 border-t">
+          <div class="px-4 space-y-2">
+            <div class="flex items-center space-x-2">
+              <component
+                :is="CheckedIcon"
+                class="w-4 h-4 text-green-500"
+              ></component>
+              <p>FireAlert Web Application</p>
+            </div>
+
+            <div class="flex items-center space-x-2">
+              <component
+                :is="CheckedIcon"
+                class="w-4 h-4 text-green-500"
+              ></component>
+              <p>FireAlert Mobile Application</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="mb-10 border border-black">
         <h2 class="my-2 px-4 text-3xl font-bold">FAM</h2>
 
         <div class="py-4 border-t">
@@ -147,33 +174,6 @@
               <p>Package</p>
             </div>
             <p class="font-bold text-black">R 30.00</p>
-          </div>
-        </div>
-      </article>
-
-      <article class="mb-10 border border-black">
-        <div class="flex items-center justify-between px-4">
-          <h2 class="my-2 text-3xl font-bold">Platform - Monthly</h2>
-          <p class="flex-shrink-0 font-bold text-black">R 280.00</p>
-        </div>
-
-        <div class="py-4 border-t">
-          <div class="px-4 space-y-2">
-            <div class="flex items-center space-x-2">
-              <component
-                :is="CheckedIcon"
-                class="w-4 h-4 text-green-500"
-              ></component>
-              <p>FireAlert Web Application</p>
-            </div>
-
-            <div class="flex items-center space-x-2">
-              <component
-                :is="CheckedIcon"
-                class="w-4 h-4 text-green-500"
-              ></component>
-              <p>FireAlert Mobile Application</p>
-            </div>
           </div>
         </div>
       </article>
