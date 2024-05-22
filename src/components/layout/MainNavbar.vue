@@ -30,7 +30,7 @@
         >
           Download
         </button>
-        <a href="https://v2.firealert.mobi/login">
+        <a href="https://app.firealert.mobi/login">
           <button
             class="py-3 px-2 lg:px-4 rounded-md bg-brand-orange-2 text-white hover:bg-brand-orange-1"
           >
