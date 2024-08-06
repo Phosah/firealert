@@ -6,7 +6,8 @@
       <article class="mb-10 border border-black">
         <div class="flex items-center justify-between px-4">
           <h2 class="my-2 text-3xl font-bold">Software - Monthly</h2>
-          <p class="flex-shrink-0 font-bold text-black">R 280.00</p>
+          <!-- <p class="flex-shrink-0 font-bold text-black">R 280.00</p> -->
+          <p class="flex-shrink-0 font-bold text-black">Contact local distributor for pricing</p>
         </div>
 
         <div class="py-4 border-t">
@@ -31,7 +32,11 @@
       </article>
 
       <article class="mb-10 border border-black">
-        <h2 class="my-2 px-4 text-3xl font-bold">FAM</h2>
+        <div class="flex items-center justify-between px-4">
+          <h2 class="my-2 text-3xl font-bold">FAM</h2>
+          <p class="flex-shrink-0 font-bold text-black">Contact local distributor for pricing</p>
+        </div>
+
 
         <div class="py-4 border-t">
           <div class="px-4 flex justify-between space-x-2 space-y-2">
@@ -42,7 +47,7 @@
               ></component>
               <p>Main controller (including pigtail, plugs and harness)</p>
             </div>
-            <p class="flex-shrink-0 font-bold text-black">R 6 370.00</p>
+            <!-- <p class="flex-shrink-0 font-bold text-black">R 6 370.00</p> -->
           </div>
           <div class="px-4 flex justify-between space-x-2 space-y-2">
             <div class="flex items-center space-x-2">
@@ -52,7 +57,7 @@
               ></component>
               <p>Bracket</p>
             </div>
-            <p class="font-bold text-black">R 170.00</p>
+            <!-- <p class="font-bold text-black">R 170.00</p> -->
           </div>
           <div class="px-4 flex justify-between space-x-2 space-y-2">
             <div class="flex items-center space-x-2">
@@ -62,13 +67,16 @@
               ></component>
               <p>Package incl manual</p>
             </div>
-            <p class="font-bold text-black">R 100.00</p>
+            <!-- <p class="font-bold text-black">R 100.00</p> -->
           </div>
         </div>
       </article>
 
       <article class="mb-10 border border-black">
-        <h2 class="my-2 px-4 text-3xl font-bold">FEMS</h2>
+        <div class="flex items-center justify-between px-4">
+          <h2 class="my-2 text-3xl font-bold">FEMS</h2>
+          <p class="flex-shrink-0 font-bold text-black">Contact local distributor for pricing</p>
+        </div>
 
         <div class="py-4 border-t">
           <div class="px-4 flex justify-between space-x-2 space-y-2">
@@ -79,7 +87,7 @@
               ></component>
               <p>Relay box</p>
             </div>
-            <p class="font-bold text-black">R 3 690.00</p>
+            <!-- <p class="font-bold text-black">R 3 690.00</p> -->
           </div>
           <div class="px-4 flex justify-between space-x-2 space-y-2">
             <div class="flex items-center space-x-2">
@@ -89,7 +97,7 @@
               ></component>
               <p>Bracket</p>
             </div>
-            <p class="font-bold text-black">R 170.00</p>
+            <!-- <p class="font-bold text-black">R 170.00</p> -->
           </div>
           <div class="px-4 flex justify-between space-x-2 space-y-2">
             <div class="flex items-center space-x-2">
@@ -99,13 +107,16 @@
               ></component>
               <p>Package</p>
             </div>
-            <p class="font-bold text-black">R 80.00</p>
+            <!-- <p class="font-bold text-black">R 80.00</p> -->
           </div>
         </div>
       </article>
 
       <article class="mb-10 border border-black">
-        <h2 class="my-2 px-4 text-3xl font-bold">Termination Box</h2>
+        <div class="flex items-center justify-between px-4">
+          <h2 class="my-2 text-3xl font-bold">Termination Box</h2>
+          <p class="flex-shrink-0 font-bold text-black">Contact local distributor for pricing</p>
+        </div>
 
         <div class="py-4 border border-t">
           <div class="px-4 flex justify-between space-x-2 space-y-2">
@@ -116,7 +127,7 @@
               ></component>
               <p>Termination box(including plugs and harness)</p>
             </div>
-            <p class="flex-shrink-0 font-bold text-black">R 1 374.00</p>
+            <!-- <p class="flex-shrink-0 font-bold text-black">R 1 374.00</p> -->
           </div>
           <div class="px-4 flex justify-between space-x-2 space-y-2">
             <div class="flex items-center space-x-2">
@@ -126,7 +137,7 @@
               ></component>
               <p>Bracket</p>
             </div>
-            <p class="font-bold text-black">R 170.00</p>
+            <!-- <p class="font-bold text-black">R 170.00</p> -->
           </div>
           <div class="px-4 flex justify-between space-x-2 space-y-2">
             <div class="flex items-center space-x-2">
@@ -136,13 +147,16 @@
               ></component>
               <p>Package</p>
             </div>
-            <p class="font-bold text-black">R 80.00</p>
+            <!-- <p class="font-bold text-black">R 80.00</p> -->
           </div>
         </div>
       </article>
 
       <article class="mb-10 border border-black">
-        <h2 class="my-2 px-4 text-3xl font-bold">WFS</h2>
+        <div class="flex items-center justify-between px-4">
+          <h2 class="my-2 text-3xl font-bold">WFS</h2>
+          <p class="flex-shrink-0 font-bold text-black">Contact local distributor for pricing</p>
+        </div>
 
         <div class="py-4 border border-t">
           <div class="px-4 flex justify-between space-x-2 space-y-2">
@@ -153,7 +167,7 @@
               ></component>
               <p>Wireless probe sender</p>
             </div>
-            <p class="font-bold text-black">R 1 570.00</p>
+            <!-- <p class="font-bold text-black">R 1 570.00</p> -->
           </div>
           <div class="px-4 flex justify-between space-x-2 space-y-2">
             <div class="flex items-center space-x-2">
@@ -163,7 +177,7 @@
               ></component>
               <p>Bracket</p>
             </div>
-            <p class="font-bold text-black">R 134.00</p>
+            <!-- <p class="font-bold text-black">R 134.00</p> -->
           </div>
           <div class="px-4 flex justify-between space-x-2 space-y-2">
             <div class="flex items-center space-x-2">
@@ -173,7 +187,7 @@
               ></component>
               <p>Package</p>
             </div>
-            <p class="font-bold text-black">R 30.00</p>
+            <!-- <p class="font-bold text-black">R 30.00</p> -->
           </div>
         </div>
       </article>
